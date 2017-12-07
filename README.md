@@ -4,3 +4,4 @@ accepts TCP connections and assigns them a thread from a thread pool to handle a
 
 I failed to find the final version of this project so there is a known bug for sending (maybe) binary data files and definitly when they try to POST them. When I handle the webrequest I make the mistake of changing the binary body into a string before uploading into the filesystem.
 
+#NOTE# After playing with Node.js I realized that I'm reinventing the wheel and probably will end up using the MERN stack to build my website. 
